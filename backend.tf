@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.1.0"
   backend "remote" {
-    organization = "ace-iac-day-two"
+    organization = "iac-course"
     workspaces {
       name = "ace-iac-day-two"
     }
